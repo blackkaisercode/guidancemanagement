@@ -1,0 +1,133 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8B0000; /* dark red */
+  padding: 10px 40px;
+  color: white;
+}
+
+
+
+.logo {
+  width: 55px;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.Schoolname {
+  font-size: 18px;
+  font-weight: semibold;
+  font-family: "abhaya-libre";
+  margin-left: 70px;
+  margin-top: -55px;
+}
+.Schoolname2 {
+  font-size: 18px;
+  font-weight: semibold;
+  font-family: "abhaya-libre";
+  margin-left: 70px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.TAB{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.TAB a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.TAB a:hover {
+  color: #FFD700;
+}
+
+.TAB .login-button{
+  background-color: #FFD700;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background-color: #e6c200;
+}
+
+.separator {
+  height: 10px;
+  background-color: #C40410;
+  height: 15px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.img-box img {
+    width: 420px;
+    height: 400px;
+    margin-left: -550px;
+    border-radius: 8px;
+}
+.content{
+    max-width: 600px;
+    margin-left: 700px;
+    margin-top: -420px;
+}
+.Welcome-text{
+    color: #666;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.tagline{
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.tagline span{
+    color: #C40410;
+}
+.description{
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+.Stats{
+    display: flex;
+    gap: 40px;
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5 2px 6px rgba(18, 0, 0, 0.1);
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.students-number{
+    color: #222;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 24;
+}
+.students-label{
+    font-size: 14px;
+    color: #666;
+}
